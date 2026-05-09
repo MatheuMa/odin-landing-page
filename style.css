@@ -1,0 +1,153 @@
+@import url('https://fonts.googleapis.com/css2?family=Funnel+Display:wght@300..800&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto';
+    color: white;
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+}
+
+.nav {
+    font-size: 18px;
+    align-items: center;
+    gap: 30px;
+}
+
+a {
+    text-decoration: none;
+}
+
+header,
+.intro {
+    display: flex;
+    padding: 0 10vw;
+    background-color: #1F2937;
+}
+
+header {
+    padding-top: 10px;
+    justify-content: space-between;
+}
+
+header h1{
+    font-size: 24px;
+}
+
+.intro {
+    padding-block: 5vh;
+    gap: 4%;
+}
+
+.intro-img {
+    width: 48%;
+}
+
+.intro-text {
+    width: 48%;
+}
+
+.intro-text h2 {
+    font-size: 48px;
+    color: #F9FAF8;
+    font-weight: 900;
+}
+
+.intro-text p {
+    font-size: 18px;
+    margin: 20px auto;
+}
+
+button {
+    font-size: 18px;
+    font-weight: 900;
+    padding: 5px 30px;
+    border-radius: 6px;
+    border: none;
+}
+
+.intro button {
+    background-color: #3882F6;
+}
+
+.info {
+    padding: 0 10vw;
+}
+
+.info h2 {
+    font-size: 36px;
+    font-weight: 900;
+    color: #1F2937;
+    text-align: center;
+    margin: 5% auto;
+}
+
+.icons {
+    padding: 0 10%;
+    gap: 5%;
+    margin-bottom: 12%;
+}
+
+.icons li {
+    width: 20%;
+}
+
+.icons li img {
+    width: 100%;
+}
+
+.icons .jp {
+    box-sizing: border-box;
+    border: 8px solid black;
+    border-radius: 20%;
+}
+
+.icons p {
+    font-size: 18px;
+    text-align: center;
+    color: #595a5e;
+}
+
+.quote {
+    background-color: #E5E7EB;
+    padding: 10% 20%;
+}
+
+.quote p,
+.quote p em {
+    color: #1F2937;
+    font-size: 36px;
+    font-weight: 300;
+}
+
+.quote .author {
+    font-weight: 900;
+    text-align: end;
+}
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    margin: 5% 10%;
+    background-color: #3882F6;
+    border-radius: 8px;
+    padding: 4% 10%;
+}
+
+footer .fleft h2 {
+    font-size: 20px;
+}
+
+footer .fright {
+    display: flex;
+    align-items: center;
+}
+
+footer .fright button {
+    border: 2px solid white;
+    background-color: transparent;
+}
